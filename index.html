@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Dynamic Showcase</title>
+     <link rel="stylesheet" href="css/style.css" />
+     <link rel="stylesheet" href="css/icons.css" />
+ </head>
+ <body>
+     <div class="product-list-container">
+        <h1>Checkout</h1>
+        Precio actual: <span class="current-price"></span>
+        <h4>Lista de productos</h4>
+        <ul class="product-list">
+           <li><i>No hay productos</i></li>
+        </ul>
+        <hr />
+        <div class="align-center"><button class="pay-btn" onclick="pseudopay()">Pagar ahora</button></div>
+     </div>
+     <div class="shelving-container">
+         <div class="product-row">
+            <div id="apple" class="product apple" draggable="true"></div>
+            <div id="banana" class="product banana" draggable="true"></div>
+            <div id="carrot" class="product carrot" draggable="true"></div>
+            <div id="cherry" class="product cherry" draggable="true"></div>
+            <div id="beer" class="product discount beer" draggable="true"></div>
+         </div>
+         <div class="product-row">
+            <div id="bread" class="product bread" draggable="true"></div>
+            <div id="beer" class="product discount beer" draggable="true"></div>
+            <div id="chicken" class="product chicken" draggable="true"></div>
+            <div id="sauce" class="product sauce" draggable="true"></div>
+            <div id="salt" class="product salt" draggable="true"></div>
+         </div>
+         <div class="product-row">
+            <div id="beer" class="product discount beer" draggable="true"></div>
+            <div id="cocktail" class="product cocktail" draggable="true"></div>
+            <div id="coffe" class="product coffe" draggable="true"></div>
+            <div id="whiskey" class="product whiskey" draggable="true"></div>
+            <div id="milk" class="product milk" draggable="true"></div>
+         </div>
+         <div class="product-row">
+            <div id="icecream" class="product icecream" draggable="true"></div>
+            <div id="watermelon" class="product watermelon" draggable="true"></div>
+            <div id="strawberry" class="product strawberry" draggable="true"></div>
+            <div id="beer" class="product discount beer" draggable="true"></div>
+            <div id="soda" class="product soda" draggable="true"></div>
+         </div>
+         <div class="product-row">
+            <div id="water" class="product water" draggable="true"></div>
+            <div id="pizza" class="product pizza" draggable="true"></div>
+            <div id="beer" class="product discount beer" draggable="true"></div>
+            <div id="pineapple" class="product pineapple" draggable="true"></div>
+            <div id="peach" class="product peach" draggable="true"></div>
+         </div>
+      </div>
+      <div class="info-bubble">
+         <span>Arrastra los productos al carrito de la zona inferior</span>
+      </div>
+     <div class="shopping-cart" ondrop="checkout(event)" ondragover="allowDrop(event)"></div>
+    <script src="js/main.js"></script>
+    <script src="js/dragdrop.js"></script>
+ </body>
+ </html>

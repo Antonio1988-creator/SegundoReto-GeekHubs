@@ -1,0 +1,46 @@
+/* Discounted products :) */
+.beer{ background: url(../img/icons/beer.png) no-repeat center/100%; }
+    .beer::before{content: "2€"}   
+    .beer::after{content: "0.24€";}
+
+/* Product classes */
+.apple{ background: url(../img/icons/apple.png) no-repeat center/100%;}
+    .apple::after{content: "1€";}
+.banana{ background: url(../img/icons/banana.png) no-repeat center/100%; }
+    .banana::after{content: "1.5€";}
+.carrot{ background: url(../img/icons/carrot.png) no-repeat center/100%; }
+    .carrot::after{content: "2€";}
+.cherry{ background: url(../img/icons/cherry.png) no-repeat center/100%; }
+    .cherry::after{content: "1€";}
+.bread{ background: url(../img/icons/bread.png) no-repeat 0 5px/100%; }
+    .bread::after{content: "3€";}
+.chicken{ background: url(../img/icons/roast-chicken.png) no-repeat 0px 17px/100%; }
+    .chicken::after{content: "10€";}
+.sauce{ background: url(../img/icons/sauce.png) no-repeat center/100%; }
+    .sauce::after{content: "2€";}
+.salt{ background: url(../img/icons/salt.png) no-repeat center/100%; }
+    .salt::after{content: "1€";}
+.cocktail{ background: url(../img/icons/cocktail.png) no-repeat center/100%; }
+    .cocktail::after{content: "6€";}
+.coffe{ background: url(../img/icons/coffee-1.png) no-repeat center/100%; }
+    .coffe::after{content: "3€";}
+.whiskey{ background: url(../img/icons/whiskey.png) no-repeat center/100%; }
+    .whiskey::after{content: "8€";}
+.milk{ background: url(../img/icons/milk.png) no-repeat center/100%; }
+    .milk::after{content: "2€";}
+.icecream{ background: url(../img/icons/ice-cream-1.png) no-repeat center/100%; }
+    .icecream::after{content: "3€";}
+.watermelon{ background: url(../img/icons/watermelon.png) no-repeat 0 10px/100%; }
+    .watermelon::after{content: "4€";}
+.strawberry{ background: url(../img/icons/strawberry.png) no-repeat center/100%; }
+    .strawberry::after{content: "2€";}
+.soda{ background: url(../img/icons/soda.png) no-repeat center/100%; }
+    .soda::after{content: "4€";}
+.water{ background: url(../img/icons/water.png) no-repeat center/100%; }
+    .water::after{content: "1€";}
+.pizza{ background: url(../img/icons/pizza.png) no-repeat center/100%; }
+    .pizza::after{content: "12€";}
+.pineapple{ background: url(../img/icons/pineapple.png) no-repeat center/100%; }
+    .pineapple::after{content: "3€";}
+.peach{ background: url(../img/icons/peach.png) no-repeat center/100%; }
+    .peach::after{content: "2€";}
